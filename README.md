@@ -19,18 +19,6 @@
 
 ## Quick Start
 
-### Kinde Configuration
-
-KINDE_CLIENT_ID=<your-kinde-client-id>
-KINDE_CLIENT_SECRET=<your-kinde-client-secret>
-KINDE_ISSUER_URL=<your-kinde-issuer-url>
-KINDE_SITE_URL=http://localhost:3000
-KINDE_POST_LOGOUT_REDIRECT_URL=http://localhost:3000
-KINDE_POST_LOGIN_REDIRECT_URL=http://localhost:3000/api/auth/creation
-Database Configuration
-DATABASE_URL=<your-database-url>
-DIRECT_URL=<your-direct-url>
-
 ### Commands
 
 1. Clone the repository:
@@ -41,7 +29,17 @@ DIRECT_URL=<your-direct-url>
    ```bash
    npm install
    ```
-3. Configure environment variables in `.env` file.
+3. Configure environment variables in `.env` file:
+   ```KINDE_CLIENT_ID=<your-kinde-client-id>
+    KINDE_CLIENT_SECRET=<your-kinde-client-secret>
+    KINDE_ISSUER_URL=<your-kinde-issuer-url>
+    KINDE_SITE_URL=http://localhost:3000
+    KINDE_POST_LOGOUT_REDIRECT_URL=http://localhost:3000
+    KINDE_POST_LOGIN_REDIRECT_URL=http://localhost:3000/api/auth/creation
+    Database Configuration
+    DATABASE_URL=<your-database-url>
+    DIRECT_URL=<your-direct-url>
+   ```
 4. Run the development server:
    ```bash
    npm run dev
@@ -49,6 +47,6 @@ DIRECT_URL=<your-direct-url>
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/skerrepy/nextjs-supabase-prisma-kinde-boilerplate/blob/main/LICENSE).
 
 ---
