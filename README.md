@@ -4,10 +4,10 @@
 
 ## Tech Stack
 
-- **Next.js**: Server-side rendering and static site generation for fast, SEO-friendly apps.
-- **Supabase**: Managed PostgreSQL database with real-time capabilities.
-- **Prisma**: Type-safe ORM for seamless database queries.
-- **Kinde**: Modern authentication with OAuth, SSO, and role-based access.
+- **[Next.js](https://nextjs.org/)**: Server-side rendering and static site generation for fast, SEO-friendly apps.
+- **[Supabase](https://supabase.com/)**: Managed PostgreSQL database with real-time capabilities.
+- **[Prisma](https://www.prisma.io/)**: Type-safe ORM for seamless database queries.
+- **[Kinde](https://kinde.com/r?kinde_ref=db1d5a2354f1a6c8)**: Modern authentication with OAuth, SSO, and role-based access.
 
 ## Features
 
@@ -16,6 +16,7 @@
 - 📡 **API Ready**: Next.js API routes for building robust backends.
 - ⏱️ **Real-Time Updates**: Real-time data sync with Supabase.
 - 🛠️ **TypeScript Support**: Fully typed environment for safe and efficient development.
+- 🔐 **Protected Routes**: Middleware.ts handles route protection - protected routes can be configured in middleware.ts.
 
 ## Quick Start
 
